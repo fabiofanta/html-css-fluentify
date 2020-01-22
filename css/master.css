@@ -12,7 +12,7 @@
 
 .container.fullwidth1 {
     background-color: #0d325a;
-    padding-bottom: 60px;
+    padding-bottom: 150px;
 }
 
 .wrapper {
@@ -35,6 +35,10 @@ a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+}
+
+.menu a:hover {
+    color: orange;
 }
 
 .logo img {
@@ -61,6 +65,18 @@ ul.menu,ul.header-buttons {
 
 #tutor {
     color: #8299ad;
+}
+
+.wrapper .top {
+    position: relative;
+}
+.top::after {
+    content: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
+    position: absolute;
+    left: 50%;
+    transform-origin: 0 0;
+    transform: scale(.5) translate(-70px,-523px);
+
 }
 
 .first-block {
@@ -98,6 +114,7 @@ ul.menu,ul.header-buttons {
 
 .wrapper.second-block {
     text-align: center;
+    margin-bottom: 60px;
 }
 
 section {
@@ -114,6 +131,13 @@ section {
 .img-wrapper h3 {
     color: #7fb802;
     margin-bottom: 20px;
+    height: 44.4px;
+}
+
+hr {
+    width: 10px;
+    margin: 20px auto;
+    color: lightgray;
 }
 
 .img-wrapper img {
@@ -126,12 +150,6 @@ section {
     height:414px;
 }
 
-.biz-img {
-    display: inline-block;
-    position: absolute;
-    top: 80%;
-    left:80%;
-}
 .button {
     font-size: 12px;
     font-weight: 700;
