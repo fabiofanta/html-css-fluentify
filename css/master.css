@@ -12,6 +12,7 @@
 
 .container.fullwidth1 {
     background-color: #0d325a;
+    padding-bottom: 60px;
 }
 
 .wrapper {
@@ -36,11 +37,15 @@ a {
 .logo {
     display: inline-block;
     vertical-align: middle;
+    padding-right: 10px;
 }
 
 li {
     display: inline-block;
     color: white;
+    padding-right: 10px;
+    font-weight: 700;
+    font-size: 11px;
 }
 
 ul.menu,ul.header-buttons {
@@ -48,13 +53,13 @@ ul.menu,ul.header-buttons {
 }
 
 .first-block {
-    margin-top: 30px;
+    margin-top: 100px;
+    margin-left: 125px;
 }
 
 .claimcall {
-    /* edit centra diversamente */
-    margin: 90px 0 0p 100px;
     width: 600px;
+    position: relative;
 }
 
 .claimcall h1 {
@@ -103,4 +108,32 @@ section {
 .img-wrapper img {
     height: 152px;
     margin-bottom: 60px;
+}
+
+.biz-img img {
+    width: 983px;
+    height:414px;
+}
+
+.biz-img {
+    display: inline-block;
+    position: absolute;
+    top: 80%;
+    left:80%;
+}
+.button {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px;
+    letter-spacing: .0182em;
+    border-radius: 5px;
+
+}
+.get-a-plan {
+    background-color:#7fb802;
+
+}
+
+.login {
+    border: 1px solid #4e8cb6;
 }
