@@ -52,7 +52,8 @@ ul.menu,ul.header-buttons {
 }
 
 .claimcall {
-    margin: 90px 0 120px 100px;
+    /* edit centra diversamente */
+    margin: 90px 0 30px 100px;
     width: 600px;
 }
 
@@ -62,4 +63,37 @@ ul.menu,ul.header-buttons {
     padding-right: 50px;
     color: white;
     margin-bottom: 30px;
+}
+
+.container.fullwidth2 {
+    background-color: #f9f9f9;
+}
+
+.wrapper.band {
+    text-align: center;
+}
+
+.wrapper.band h3 {
+    color: gray;
+    line-height: 2;
+}
+
+.wrapper.second-block {
+    text-align: center;
+}
+
+section {
+    width: 33.3333%;
+    height: 33.3333%;
+    float: left;
+}
+
+.img-wrapper{
+    width: 319px;
+    margin-left: 80px;
+
+}
+.img-wrapper h3 {
+    color: #7fb802;
+    margin-bottom: 20px;
 }
