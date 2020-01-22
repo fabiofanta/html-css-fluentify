@@ -53,7 +53,7 @@ ul.menu,ul.header-buttons {
 
 .claimcall {
     /* edit centra diversamente */
-    margin: 90px 0 30px 100px;
+    margin: 90px 0 0p 100px;
     width: 600px;
 }
 
@@ -67,10 +67,12 @@ ul.menu,ul.header-buttons {
 
 .container.fullwidth2 {
     background-color: #f9f9f9;
+    padding: 40px;
 }
 
 .wrapper.band {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .wrapper.band h3 {
@@ -96,4 +98,9 @@ section {
 .img-wrapper h3 {
     color: #7fb802;
     margin-bottom: 20px;
+}
+
+.img-wrapper img {
+    height: 152px;
+    margin-bottom: 60px;
 }
