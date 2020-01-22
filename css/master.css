@@ -19,3 +19,22 @@ header {
     /* to discard */
     text-align: center;
 }
+
+nav  {
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+ul.menu,ul.header-buttons {
+    display: inline-block;
+}
