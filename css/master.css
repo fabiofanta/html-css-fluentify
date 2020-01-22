@@ -20,26 +20,46 @@
     max-width: 1200px;
 }
 header {
-    height: 20%;
-    /* to discard */
     text-align: center;
 }
 
 nav  {
-    text-decoration: none;
-    text-transform: capitalize;
-    list-style-type: none;
     display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
 }
 
 .logo {
     display: inline-block;
+    vertical-align: middle;
 }
 
 li {
     display: inline-block;
+    color: white;
 }
 
 ul.menu,ul.header-buttons {
     display: inline-block;
+}
+
+.first-block {
+    margin-top: 30px;
+}
+
+.claimcall {
+    margin: 90px 0 120px 100px;
+    width: 600px;
+}
+
+.claimcall h1 {
+    font-size: 45px;
+    line-height: 55px;
+    padding-right: 50px;
+    color: white;
+    margin-bottom: 30px;
 }
