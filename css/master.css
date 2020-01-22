@@ -9,3 +9,13 @@
       display: table;
       clear: both;
   }
+
+.container.fullwidth1 {
+    background-color: #0d325a;
+}
+
+header {
+    height: 20%;
+    /* to discard */
+    text-align: center;
+}
