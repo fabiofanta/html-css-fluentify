@@ -12,18 +12,17 @@
 
 .container.fullwidth1 {
     background-color: #0d325a;
-    padding-bottom: 150px;
+    height: 450px;
 }
 
 .wrapper {
     margin: 0 auto;
-    width 70%;
+    width:80%;
     max-width: 1200px;
 }
 header {
     text-align: center;
     padding-top: 30px;
-    margin-left: 135px
 }
 
 nav  {
@@ -67,21 +66,8 @@ ul.menu,ul.header-buttons {
     color: #8299ad;
 }
 
-.wrapper .top {
-    position: relative;
-}
-.top::after {
-    content: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
-    position: absolute;
-    left: 50%;
-    transform-origin: 0 0;
-    transform: scale(.5) translate(-70px,-523px);
-
-}
-
 .first-block {
     margin-top: 100px;
-    margin-left: 125px;
 }
 
 .claimcall {
@@ -123,11 +109,14 @@ section {
     float: left;
 }
 
+.container.fullwidth3 {
+    background-color: white;
+}
+
 .img-wrapper{
     width: 319px;
-    margin-left: 80px;
-
 }
+
 .img-wrapper h3 {
     color: #7fb802;
     margin-bottom: 20px;
