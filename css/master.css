@@ -12,6 +12,7 @@
 
   body {
       font-family: 'Nunito Sans', sans-serif;
+      overflow-x: hidden;
   }
 
 .container.fullwidth1 {
@@ -72,6 +73,8 @@ ul.menu,ul.header-buttons {
 
 .first-block {
     margin-top: 100px;
+    height: 400px;
+    position: relative;
 }
 
 .claimcall {
@@ -85,6 +88,16 @@ ul.menu,ul.header-buttons {
     padding-right: 50px;
     color: white;
     margin-bottom: 30px;
+}
+
+.claimcall img {
+    position: absolute;
+    bottom: 0;
+    left:160px;
+    width: 800px;
+    transform: translate(47%,33%);
+
+
 }
 
 .container.fullwidth2 {
