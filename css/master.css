@@ -18,6 +18,7 @@
 .container.fullwidth1 {
     background-color: #0d325a;
     height: 450px;
+    overflow: hidden;
 }
 
 .wrapper {
@@ -92,7 +93,7 @@ ul.menu,ul.header-buttons {
 
 .claimcall img {
     position: absolute;
-    bottom: 0;
+    bottom: -10%;
     left:160px;
     width: 800px;
     transform: translate(47%,33%);
