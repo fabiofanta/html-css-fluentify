@@ -10,6 +10,10 @@
       clear: both;
   }
 
+  body {
+      font-family: 'Nunito Sans', sans-serif;
+  }
+
 .container.fullwidth1 {
     background-color: #0d325a;
     height: 450px;
